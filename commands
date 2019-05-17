@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles">
+    <title>List of Commands</title>
+    <link rel="stylesheet" href="border">
+  </head>
+<body>
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Synopsis/Syntax</th>
+    <th>Description</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <th>Change Directory</th>
+    <th>Cd [OPTION]</th>
+    <th>Allows user to change the directory they are currently on</th>
+    <th>Cd scripts sp2b@rpi:~/scripts $</th>
+  </tr>
+  <tr>
+    <th>Print name of current directory</th>
+    <th>pwd</th>
+    <th>Allows user to see the path to their current directory</th>
+    <th>Pwd /home/pw2a</th>
+  </tr>
+  <tr>
+    <th>Contents in a directory</th>
+    <th>Ls</th>
+    <th>Shows the contents in the current directory</th>
+    <th>Ls readme readme</th>
+  </tr>
+  <tr>
+    <th>Concentrate files</th>
+    <th>cat</th>
+    <th>Concentrates the files to the standard output</th>
+    <th>Cat readme HELLO CCA</th>
+  </tr>
+  <tr>
+    <th>Manual</th>
+    <th>Man [OPTION]</th>
+    <th>Shows how to use a command</th>
+    <th>Man cat</th>
+  </tr>
+  <tr>
+    <th>Move/rename</th>
+    <th>Mv  [SOURCE]  [DEST.]</th>
+    <th>Move a file from one directory to another or rename</th>
+    <th>Mv readme readme3 Or Mv readme home scripts</th>
+  </tr>
+  <tr>
+    <th>Copy files/directory</th>
+    <th>Cp  [SOURCE] [DEST.]</th>
+    <th>Copies any file or directory</th>
+    <th>Cp readme readme2</th>
+  </tr>
+  <tr>
+    <th>Remove Files</th>
+    <th>Rm [OPTION]</th>
+    <th>Deletes any file </th>
+    <th>Rm readme</th>
+  </tr>
+  <tr>
+    <th>Move all files</th>
+    <th>-r</th>
+    <th>Move all files from one directory to another</th>
+    <th>-r directory1 directory2</th>
+  </tr>
+  <tr>
+    <th>Edit Script</th>
+    <th>Nano</th>
+    <th>Goes to bash to edit script</th>
+    <th>Nano script1</th>
+  </tr>
+</body>
+</html>
+
+    
